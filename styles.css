@@ -36,3 +36,12 @@ Para los íconos sociales, puede usar los íconos provistos o una biblioteca de 
 
 - [Font Awesome](https://fontawesome.com)
  */
+
+ .caja {
+    display: flex;
+    justify-content: space-between;
+}
+ .sportit {margin-left: 20px;}
+ .menu-hamburguesa {margin-right: 20px;}
+
+
