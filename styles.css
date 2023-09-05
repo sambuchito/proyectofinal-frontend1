@@ -1,0 +1,75 @@
+/* Los diseños se crearon con los siguientes anchos:
+
+- Mobile: 480px
+- Desktop: 1440px
+ */
+
+ /* BASE ESTILOS */
+
+ /* ## Colores
+
+### Primario
+
+Violeta: #8B48BF
+Celeste brillante: #3CDDF3
+
+### Neutro
+
+Azul grisáceo oscuro: #1E1E26
+Azul muy oscuro: #232851
+Variante gris claro: rgb (249, 249, 249)
+
+## Tipografia
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Be Vietnam Pro](https://fonts.google.com/specimen/Be+Vietnam+Pro)
+- Weights: 400, 500, 700
+
+## Icons
+
+Para los íconos sociales, puede usar los íconos provistos o una biblioteca de íconos de fuentes. Ej:
+
+- [Font Awesome](https://fontawesome.com)
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+ * {
+    font-family: 'Vietnam';
+    font-size: 16px;
+    background-color: white;
+ }
+
+ .caja {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .sportit {margin-left: 20px;}
+ .menu-hamburguesa {margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+  }
+  
+  .nav,
+  .nav_item,
+  .login-button {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+  }
+
+
+
+
+
+
