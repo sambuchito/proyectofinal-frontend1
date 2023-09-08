@@ -63,11 +63,13 @@ Para los íconos sociales, puede usar los íconos provistos o una biblioteca de 
 }
 
 /* BODY */
+
 body {
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
 /* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -79,39 +81,41 @@ header div.menuHamb {
 }
 
 /* MAIN */
-/* SECTION FIRTS */
-.sectionFirst {
+
+/* SECTION UNO */
+
+.sectionUno {
   display: flex;
   flex-direction: column;
 }
 
-.sectionFirst img {
+.sectionUno img {
   width: 90%;
   margin-left: 20px;
 }
 
-.sectionFirst article {
+.sectionUno article {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding: 0 40px;
 }
 
-.sectionFirst article h1 {
+.sectionUno article h1 {
   font-size: 3rem;
   text-align: end;
   padding: 50px 0;
   color: var(--main-primary-color);
 }
 
-.sectionFirst article p {
+.sectionUno article p {
   color: var(--main-black-color);
   text-align: end;
   font-weight: 500;
   padding: 0px 0 10px;
 }
 
-.sectionFirst article button.contact {
+.sectionUno article button.botoncontact {
   color: var(--main-white-color);
   background-color: var(--main-bg-color);
   padding: 15px 50px;
@@ -122,13 +126,15 @@ header div.menuHamb {
 }
 
 /* HOVER BUTTON */
-button.contact:hover {
+
+button.botoncontact:hover {
   box-shadow: inset 20rem 30px 0 0 #3CDDF3;
   transition: all 1s;
 }
 
-/* SECTION SECOND */
-.sectionSecond article.different {
+/* SECTION DOS */ 
+
+.sectionDos article.different {
   background: var(--main-bgMobile-color);
   padding: 20px;
   margin-bottom: 60px;
@@ -146,15 +152,15 @@ article.different p {
   line-height: 25px;
 }
 
-.sectionSecond article.articleFirst,
-.sectionSecond article.articleSecond,
-.sectionSecond article.articleThird {
+.sectionDos article.articleUno,
+.sectionDos article.articleDos,
+.sectionDos article.articleTres {
   margin: 40px 0px 20px 35px;
 }
 
-.sectionSecond article.articleFirst h3,
-.sectionSecond article.articleSecond h3,
-.sectionSecond article.articleThird h3 {
+.sectionDos article.articleUno h3,
+.sectionDos article.articleDos h3,
+.sectionDos article.articleTres h3 {
   background-color: var(--main-bgSecond-color);
   border-radius: 30px 0 0 30px;
   display: flex;
@@ -164,18 +170,18 @@ article.different p {
   width: 100%;
 }
 
-.sectionSecond article.articleFirst p,
-.sectionSecond article.articleSecond p,
-.sectionSecond article.articleThird p {
+.sectionDos article.articleUno p,
+.sectionDos article.articleDos p,
+.sectionDos article.articleTres p {
   padding: 20px 0;
   color: var(--main-second-color);
   line-height: 25px;
   padding-right: 50px;
 }
 
-.sectionSecond article.articleFirst h3::before,
-.sectionSecond article.articleSecond h3::before,
-.sectionSecond article.articleThird h3::before {
+.sectionDos article.articleUno h3::before,
+.sectionDos article.articleDos h3::before,
+.sectionDos article.articleTres h3::before {
   content: "01";
   color: var(--main-white-color);
   background: var(--main-bg-color);
@@ -184,16 +190,16 @@ article.different p {
   font-weight: 300;
 }
 
-.sectionSecond article.articleSecond h3::before {
+.sectionDos article.articleDos h3::before {
   content: "02";
 }
 
-.sectionSecond article.articleThird h3::before {
+.sectionDos article.articleTres h3::before {
   content: "03";
 }
 
-/* SECTION THIRD */
-.sectionThird {
+/* SECTION TRES */
+.sectionTres {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -201,7 +207,7 @@ article.different p {
   align-items: center;
 }
 
-.sectionThird h2 {
+.sectionTres h2 {
   text-align: center;
   font-weight: 700;
   font-size: 2.5rem;
@@ -209,9 +215,9 @@ article.different p {
   color: var(--main-primary-color);
 }
 
-.sectionThird article.cardSecond,
-.sectionThird article.cardFirst,
-.sectionThird article.cardThird {
+.sectionTres article.cardDos,
+.sectionTres article.cardUno,
+.sectionTres article.cardTres {
   display: flex;
   flex-direction: column;
   background-color: var(--main-bgText-color);
@@ -219,33 +225,33 @@ article.different p {
   margin: 0 1px;
 }
 
-.sectionThird article.cardSecond img,
-.sectionThird article.cardFirst img,
-.sectionThird article.cardThird img {
+.sectionTres article.cardDos img,
+.sectionTres article.cardUno img,
+.sectionTres article.cardTres img {
   width: auto;
   position: absolute;
   top: -30px;
   right: 180px;
 }
 
-.sectionThird article.cardSecond h4,
-.sectionThird article.cardFirst h4,
-.sectionThird article.cardThird h4 {
+.sectionTres article.cardDos h4,
+.sectionTres article.cardUno h4,
+.sectionTres article.cardTres h4 {
   text-align: center;
   padding: 50px 0px 0px;
   color: var(--main-text-color);
 }
 
-.sectionThird article.cardSecond p,
-.sectionThird article.cardFirst p,
-.sectionThird article.cardThird p {
+.sectionTres article.cardDos p,
+.sectionTres article.cardUno p,
+.sectionTres article.cardTres p {
   padding: 10px 25px;
   color: var(--main-second-color);
   line-height: 25px;
   text-align: center;
 }
 
-.sectionThird button.more {
+.sectionTres button.more {
   background-color: var(--main-bg-color);
   color: var(--main-white-color);
   display: flex;
@@ -258,20 +264,21 @@ article.different p {
   cursor: pointer;
 }
 
-/* SECTION FOURTH */
-.sectionFourth {
+/* SECTION CUATRO */
+
+.sectionCuatro {
   background-color: var(--main-bgMobile-color);
   color: var(--main-white-color);
   text-align: center;
 }
 
-.sectionFourth h2 {
+.sectionCuatro h2 {
   font-size: 2rem;
   padding: 30px 90px;
   margin: 0 30px;
 }
 
-.sectionFourth button.btnGoFor {
+.sectionCuatro button.botonGoFor {
   padding: 15px 50px;
   margin: 20px;
   color: var(--main-white-color);
@@ -281,6 +288,7 @@ article.different p {
 }
 
 /* FOOTER */
+
 footer {
   background-color: var(--main-text-color);
 }
@@ -303,7 +311,7 @@ form.formInput input::placeholder {
   color: var(--main-second-color);
 }
 
-form.formInput button.btnGo {
+form.formInput button.botonGo {
   padding: 10px 30px;
   border: none;
   border-radius: 30px;
@@ -355,7 +363,9 @@ footer p {
 }
 
 /* MEDIA QUERIES */
+
 /* MOBILE */
+
 @media (max-width: 480px) {
   header nav,
   header button,
@@ -377,15 +387,15 @@ footer p {
     left: 39.5%;
     }
   
-  .sectionThird {
+  .sectionTres {
     display: flex;
   }
 
-  .cardSecond, .cardThird {
+  .cardDos, .cardTres {
     display: block;
   }
 
-  .cardFirst, .cardSecond, .cardThird {
+  .cardUno, .cardDos, .cardTres {
     margin: 9% 1% 3%;
     padding: 5% 3%;
   } 
@@ -415,7 +425,7 @@ footer p {
     color: var(--main-second-color);
   }
 
-  header button.contact {
+  header button.botoncontact {
     color: var(--main-white-color);
     padding: 10px 40px;
     border: none;
@@ -426,45 +436,45 @@ footer p {
 
   /* MAIN */
 
-  /* SECTION FIRTS */
+  /* SECTION UNO */
 
-  main .sectionFirst {
+  main .sectionUno {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  .sectionFirst div.divBanner {
+  .sectionUno div.divBanner {
     display: flex;
     justify-content: center;
     padding: 10px 0 40px;
   }
 
-  .sectionFirst img {
+  .sectionUno img {
     width: 100%;
     padding: 0;
   }
 
-  .sectionFirst article {
+  .sectionUno article {
     width: 40%;
   }
 
-  .sectionFirst article button.contact {
+  .sectionUno article button.botoncontact {
     margin: 30px 5px 30px;
   }
 
-  /* SECTION SECOND */
-  .sectionSecond {
+  /* SECTION DOS */
+  .sectionDos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  .sectionSecond article.different p.pMobile {
+  .sectionDos article.different p.pMobile {
     display: none;
   }
 
-  .sectionSecond article.different {
+  .sectionDos article.different {
     background: var(--main-bg-color);
     display: flex;
     padding: 10px 10%;
@@ -485,32 +495,32 @@ footer p {
     width: 50%;
   }
 
-  .sectionSecond {
+  .sectionDos {
     background-color: var(--main-bgText-color);
   }
 
-  .sectionSecond article.articleFirst,
-  .sectionSecond article.articleSecond,
-  .sectionSecond article.articleThird {
+  .sectionDos article.articleUno,
+  .sectionDos article.articleDos,
+  .sectionDos article.articleTres {
     display: flex;
     flex-wrap: wrap;
     width: 580px;
   }
 
-  .sectionSecond article.articleFirst h3,
-  .sectionSecond article.articleSecond h3,
-  .sectionSecond article.articleThird h3 {
+  .sectionDos article.articleUno h3,
+  .sectionDos article.articleDos h3,
+  .sectionDos article.articleTres h3 {
     background-color: var(--main-white-color);
     background-color: var(--main-bgText-color);
   }
 
-  .sectionSecond article.articleFirst p,
-  .sectionSecond article.articleSecond p,
-  .sectionSecond article.articleThird p {
+  .sectionDos article.articleUno p,
+  .sectionDos article.articleDos p,
+  .sectionDos article.articleTres p {
     padding: 20px 70px;
   }
 
-  /* SECTION THIRD */
+  /* SECTION TRES */
   .sectionThird {
     display: flex;
     flex-direction: row;
@@ -522,14 +532,14 @@ footer p {
     margin-top: 30px;
   }
 
-  .sectionThird article.cardFirst,
-  .sectionThird article.cardSecond,
-  .sectionThird article.cardThird {
+  .sectionTres article.cardUno,
+  .sectionTres article.cardDos,
+  .sectionTres article.cardTres {
     width: 33%;
   }
 
-  /* SECTION FOURTH */
-  section.sectionFourth {
+  /* SECTION CUATRO */
+  section.sectionCuatro {
     display: flex;
     background-color: var(--main-bg-color);
     justify-content: space-around;
@@ -537,16 +547,16 @@ footer p {
     height: 200px;
   }
 
-  .sectionFourth h2 {
+  .sectionCuatro h2 {
     text-align: start;
     padding: 40px;
   }
 
-  .sectionFourth h2 span {
+  .sectionCuatro h2 span {
     display: block;
   }
 
-  .sectionFourth button.btnGoFor {
+  .sectionCuatro button.botonGoFor {
     cursor: pointer;
     background-color: var(--main-white-color);
     color: var(--main-bg-color);
