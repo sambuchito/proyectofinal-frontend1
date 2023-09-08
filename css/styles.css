@@ -199,6 +199,7 @@ article.different p {
 }
 
 /* SECTION TRES */
+
 .sectionTres {
   padding: 20px;
   display: flex;
@@ -213,6 +214,14 @@ article.different p {
   font-size: 2.5rem;
   padding-bottom: 70px;
   color: var(--main-primary-color);
+}
+
+.avatar{
+  bottom: 87%;
+  height: 65px;
+  left: 40%;
+  position: absolute;  
+  width: 65px;
 }
 
 .sectionTres article.cardDos,
@@ -382,10 +391,10 @@ footer p {
     color: var(--main-black-color);
   }
 
-  .avatar{
+/*   .avatar{
     bottom: 90%;
     left: 39.5%;
-    }
+    } */
   
   .sectionTres {
     display: flex;
@@ -531,6 +540,11 @@ footer p {
     width: 100%;
     margin-top: 30px;
   }
+
+  .avatar {
+    bottom: 90%;
+    left: 39.5%;
+    }
 
   .sectionTres article.cardUno,
   .sectionTres article.cardDos,
