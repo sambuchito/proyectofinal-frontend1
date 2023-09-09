@@ -1,0 +1,128 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900); */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --main-bg-color: #8b48bf;
+    --main-bgSecond-color: rgba(139, 72, 191, 0.3);
+    --main-bgText-color: rgb(249, 249, 249);
+    --main-bgMobile-color: #3cddf3;
+    --main-white-color: #fff;
+    --main-black-color: #000;
+    --main-primary-color: #232851;
+    --main-second-color: #b3b2b7;
+    --main-text-color: #1e1e26;
+    font-family: 'Be Vietnam Pro';
+  }
+
+body {
+    background-repeat: no-repeat;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+header, main {
+    text-align: center;
+    margin-top: 2px;
+}
+
+header {
+    font-size: 74px;
+    
+}
+main {
+    padding: 20px;
+}
+
+body {
+    background-image: url('https://images3.alphacoders.com/621/621682.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.boton {
+    color: var(--main-white-color);
+    background-color: var(--main-second-color);
+    padding: 15px 50px;
+    margin: 10px 5px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+button.boton:hover {
+    text-decoration: none;
+    box-shadow: inset 20rem 30px 0 0 #8b48bf;
+    transition: all 1s;
+    filter: brightness(115%);
+}
+
+.boton p {
+    font-style: bold;
+    text-decoration: none;
+    color: var(--main-black-color);
+    font-size: large;
+
+}
+
+.boton a {
+    font-style: bold;
+    text-decoration: none;
+    color: var(--main-black-color);
+    font-size: large;
+}
+
+
+
+h1 {
+    font-weight: 900;
+    font-size: 75px;
+    margin-top: 1px;}
+
+h3 {
+  
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0 0 2em;
+  
+}
+
+
+/* MEDIA QUERIES */
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, h1, h3 {
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+    main button {
+        padding: 5px;
+    }
+}
+
+/* DESKTOP */
+
+@media (min-width: 481px) and (max-width: 1399px) {
+    body {
+        font-size: 16px;
+    }
+
+    header, h1, h3 {
+        font-size: 24px;
+        margin-top: 3%;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
